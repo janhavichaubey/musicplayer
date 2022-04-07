@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <h1>MUSIC PLAYER</h1>
+    <div class="music-container" id="music-container">
+        <div class="musicinfo">
+            <h4 id="title">raat</h4>
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress">
+                </div>
+            </div>
+        </div>
+        <audio src="music/raat.mp3" id="audio" controls></audio>
+        <div class="img-container">
+            <img src="images/raat.jpg" alt="music-cover" id="cover" />
+        </div>
+        <div class="nav">
+            <button id="prev" class="action-btn b1">
+                <img src="rewind.png" alt="">
+            </button>
+            <button id="play" class="action-btn action-btn-big ">
+                <b style="color:rgb(145, 133, 133)">Music</b><i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn b2">
+                <img src="forward.png" alt="">
+            </button>
+        </div>
+    </div>
+    <script src="script1.js">
+
+    </script>
+</body>
+
+</html>
